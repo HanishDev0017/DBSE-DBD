@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production Builds
+dist/
+dist-ssr/
+*.local
+
+# Environment Variables (Ignored globally across all subdirectories)
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+!**/.env.example
+
+# Docker & Database local mounts
+*.log
+docker-data/
+mongo-data/
+
+# Editor & OS Artifacts
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Do NOT ignore academic review decks
+!docs/academic/*.pdf
+!docs/academic/*.pptx
+!docs/academic/*.docx
